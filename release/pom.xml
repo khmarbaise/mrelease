@@ -65,6 +65,9 @@
             <descriptor>src/assembly/mrjar.xml</descriptor>
           </descriptors>
           <archive>
+            <manifest>
+              <mainClass>com.soebes.mrelease.base.TheMultiReleaseJarBase</mainClass>
+            </manifest>
             <manifestEntries>
               <Multi-Release>true</Multi-Release>
             </manifestEntries>
