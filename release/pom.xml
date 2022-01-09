@@ -44,6 +44,16 @@
     </dependency>
     <dependency>
       <groupId>com.soebes.mrelease</groupId>
+      <artifactId>mr-m9</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.soebes.mrelease</groupId>
+      <artifactId>mr-m10</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.soebes.mrelease</groupId>
       <artifactId>mr-m16</artifactId>
       <version>${project.version}</version>
     </dependency>

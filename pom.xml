@@ -78,6 +78,8 @@
 
   <modules>
     <module>release</module>
+    <module>m9</module>
+    <module>m10</module>
     <module>m17</module>
     <module>m16</module>
     <module>core</module>
