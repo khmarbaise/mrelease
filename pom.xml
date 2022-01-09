@@ -37,7 +37,7 @@
   <packaging>pom</packaging>
   <version>0.1.0-SNAPSHOT</version>
 
-  <name>MRelease</name>
+  <name>Multi Release</name>
   <scm>
     <connection>scm:git:https://github.com/khmarbaise/mrelease.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/khmarbaise/mrelease.git</developerConnection>
