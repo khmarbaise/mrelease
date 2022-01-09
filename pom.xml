@@ -76,6 +76,22 @@
     </dependencies>
   </dependencyManagement>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <configuration>
+          <rules>
+              <requireJavaVersion>
+                <version>17</version>
+                <message>You have to use JDK17+ otherwise this project can not being compiled.</message>
+              </requireJavaVersion>
+          </rules>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <modules>
     <module>release</module>
     <module>m9</module>
