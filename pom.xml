@@ -77,10 +77,10 @@
   </dependencyManagement>
 
   <modules>
+    <module>release</module>
     <module>m17</module>
     <module>m16</module>
     <module>core</module>
-    <module>release</module>
   </modules>
 
 </project>

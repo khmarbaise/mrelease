@@ -37,7 +37,6 @@
   <name>Multi Release : JAR Creation</name>
 
   <dependencies>
-
     <dependency>
       <groupId>com.soebes.mrelease</groupId>
       <artifactId>mr-core</artifactId>
@@ -53,7 +52,6 @@
       <artifactId>mr-m17</artifactId>
       <version>${project.version}</version>
     </dependency>
-
   </dependencies>
   <build>
     <plugins>
