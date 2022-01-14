@@ -39,7 +39,8 @@
   <dependencies>
     <dependency>
       <groupId>com.soebes.mrelease</groupId>
-      <artifactId>mr-core-shaded</artifactId>
+      <artifactId>mr-core</artifactId>
+      <classifier>shaded</classifier>
       <version>${project.version}</version>
     </dependency>
     <dependency>

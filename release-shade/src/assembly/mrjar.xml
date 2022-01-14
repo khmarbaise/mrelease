@@ -33,11 +33,12 @@
     <moduleSet>
       <useAllReactorProjects>true</useAllReactorProjects>
       <includes>
-        <include>com.soebes.mrelease:mr-core-shaded</include>
+        <include>com.soebes.mrelease:mr-core</include>
       </includes>
       <binaries>
         <unpack>true</unpack>
         <includeDependencies>false</includeDependencies>
+        <attachmentClassifier>shaded</attachmentClassifier>
       </binaries>
     </moduleSet>
     <moduleSet>

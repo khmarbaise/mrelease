@@ -105,7 +105,6 @@
     <module>m17</module>
     <module>m16</module>
     <module>core</module>
-    <module>core-shaded</module>
   </modules>
 
 </project>
