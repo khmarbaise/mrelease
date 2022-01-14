@@ -67,6 +67,13 @@
     <plugins>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
+        <dependencies>
+          <dependency>
+            <groupId>com.soebes.mrelease</groupId>
+            <artifactId>release-descriptor</artifactId>
+            <version>${project.version}</version>
+          </dependency>
+        </dependencies>
         <configuration>
           <appendAssemblyId>false</appendAssemblyId>
           <descriptors>
