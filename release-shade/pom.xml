@@ -99,6 +99,24 @@
           </execution>
         </executions>
       </plugin>
+
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <configuration>
+          <createDependencyReducedPom>true</createDependencyReducedPom>
+          <generateUniqueDependencyReducedPom>true</generateUniqueDependencyReducedPom>
+          <shadedArtifactAttached>true</shadedArtifactAttached>
+        </configuration>
+        <executions>
+          <execution>
+            <id>generate-pom</id>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
     </plugins>
   </build>
 </project>
