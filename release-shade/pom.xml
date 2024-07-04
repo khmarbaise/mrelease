@@ -102,11 +102,6 @@
 
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
-        <configuration>
-          <createDependencyReducedPom>true</createDependencyReducedPom>
-          <generateUniqueDependencyReducedPom>true</generateUniqueDependencyReducedPom>
-          <shadedArtifactAttached>true</shadedArtifactAttached>
-        </configuration>
         <executions>
           <execution>
             <id>generate-pom</id>
