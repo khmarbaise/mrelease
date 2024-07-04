@@ -17,7 +17,7 @@
 
 # Multi Release Setup
 
-[![Build Status](https://cloud.drone.io/api/badges/khmarbaise/mrelease/status.svg)](https://cloud.drone.io/khmarbaise/mrelease)
+[![JDKBuilds](https://github.com/khmarbaise/mrelease/actions/workflows/jdkbuilds.yml/badge.svg)](https://github.com/khmarbaise/mrelease/actions/workflows/jdkbuilds.yml)
 
 
 # Build
